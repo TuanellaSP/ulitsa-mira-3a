@@ -13,13 +13,13 @@ h1 span{color:var(--rust);font-style:italic;white-space:nowrap}
 .authors{font-size:17px;line-height:1.9;letter-spacing:.01em;margin:0;color:var(--muted)}
 .author{white-space:nowrap}
 .story{max-width:650px;margin:0 auto;padding:0 0 1px;font-size:21px;line-height:1.73;letter-spacing:.002em;overflow-wrap:break-word}
-.story p{margin:0 0 .68em;text-indent:1.4em;white-space:pre-wrap;orphans:3;widows:3}
+.story p{margin:0 0 .68em;text-indent:0;white-space:pre-wrap;orphans:3;widows:3}
 .story>p:first-child{text-indent:0}
 .story>p:first-child::first-letter{font-size:1.35em;color:var(--rust)}
 .illustration{width:calc(100% + 112px);margin:64px -56px}
 .illustration.door{max-width:640px;width:100%;margin:64px auto}
 .illustration.window:last-child{margin-top:72px;margin-bottom:100px}
 @media(max-width:900px){.story{max-width:650px;padding-left:24px;padding-right:24px}.illustration{width:calc(100% + 48px);margin-left:-24px;margin-right:-24px}.title-block{padding-top:56px;padding-bottom:72px}}
-@media(max-width:650px){.title-block{padding:40px 20px 56px}.genre{font-size:10px;margin-bottom:20px}h1{font-size:clamp(32px,8.6vw,52px);margin-bottom:20px}.authors{font-size:14px;line-height:1.9;max-width:330px;margin:0 auto}.story{font-size:19px;line-height:1.7}.story p{margin-bottom:.65em;text-indent:1.2em}.illustration,.illustration.door{margin-top:40px;margin-bottom:40px}.illustration.door{width:calc(100% + 30px);max-width:none;margin-left:-15px;margin-right:-15px}.illustration.window:last-child{margin-top:48px;margin-bottom:52px}}
+@media(max-width:650px){.title-block{padding:40px 20px 56px}.genre{font-size:10px;margin-bottom:20px}h1{font-size:clamp(32px,8.6vw,52px);margin-bottom:20px}.authors{font-size:14px;line-height:1.9;max-width:330px;margin:0 auto}.story{font-size:19px;line-height:1.7}.story p{margin-bottom:.65em;text-indent:0}.illustration,.illustration.door{margin-top:40px;margin-bottom:40px}.illustration.door{width:calc(100% + 30px);max-width:none;margin-left:-15px;margin-right:-15px}.illustration.window:last-child{margin-top:48px;margin-bottom:52px}}
 @media(max-width:360px){.story{font-size:18px;padding-left:20px;padding-right:20px}.authors{font-size:13px}h1{font-size:32px}.illustration.window{width:calc(100% + 40px);margin-left:-20px;margin-right:-20px}}
 @media print{html{background:#fff;color:#000}.cover{width:80%;margin:0 auto}.title-block{padding:24px 0 40px}h1{font-size:36pt}.story{font-size:12pt;line-height:1.5;max-width:none}.illustration,.illustration.door{width:60%;margin:24px auto;break-inside:avoid}.illustration.window:last-child{margin:24px auto}}
